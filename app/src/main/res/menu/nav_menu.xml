@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:title="General">
+
+        <menu>
+            <item
+                android:id="@+id/notes"
+                android:icon="@drawable/ic_event_note"
+                android:title="Notes"
+                />
+            <item
+                android:id="@+id/addNewNote"
+                android:icon="@drawable/ic_add_circle"
+                android:title="Add New" />
+
+            <item
+                android:id="@+id/syncNotes"
+                android:icon="@drawable/ic_sync"
+                android:title="Sync Notes" />
+
+        </menu>
+    </item>
+
+
+
+    <item android:title="Support">
+
+        <menu>
+            <item
+                android:id="@+id/rating"
+                android:icon="@drawable/ic_star"
+                android:title="Rate Us" />
+            <item
+                android:id="@+id/shareApp"
+                android:icon="@drawable/ic_share"
+                android:title="Share App" />
+
+        </menu>
+    </item>
+
+    <item android:title="General">
+
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Logout" />
+
+        </menu>
+    </item>
+
+
+
+
+
+
+
+
+</menu>
